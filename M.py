@@ -1,4 +1,7 @@
 from turtle import *
+import os
+os.environ['TK_SILENCE-DEPRECATION']='1'
+import tkinter
 
 screen=Screen()
 
@@ -13,7 +16,7 @@ screen.setup(width=1000,height=400)
 # yertle.color("turquoise")
 # yertle.shape("turtle")
 
-# screen.exitonclick()
+
 
 # """"
 # Movement 
@@ -66,8 +69,6 @@ for i in range(180):
     a.forward(5)
     a.right(5)
 
-screen.exitonclick()
-
 b=Turtle()
 
 b.color("turquoise")
@@ -89,5 +90,7 @@ e.color("turquoise")
 e.shape("turtle")
 
 
-turtle.pensize(2)
-ONITT
+# echo 'export TK_SILENCE_DEPRECATION=1'>> ~/.bash_profile
+
+# echo 'export TK_SILENCE_DEPRECATION=1'>> ~/.zshrc
+echo 'export TK_SILENCE_DEPRECATION=1'>> ~/.
